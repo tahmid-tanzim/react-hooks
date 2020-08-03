@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Button from "@material-ui/core/Button";
 
-function HookCounter() {
+function HookCounterOne() {
   const [count, setCount] = useState(0);
 
   return (
@@ -17,4 +17,4 @@ function HookCounter() {
   );
 }
 
-export default HookCounter;
+export default HookCounterOne;
